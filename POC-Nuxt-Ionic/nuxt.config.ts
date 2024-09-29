@@ -15,6 +15,7 @@ export default defineNuxtConfig({
     },
   },
   ssr: false,
+  css: ["~/assets/css/ionic.css"],
   tailwindcss: {
     cssPath: ["~/assets/css/tailwind.css", { injectPosition: "first" }],
     configPath: "tailwind.config",
