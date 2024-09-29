@@ -1,3 +1,4 @@
+/* https://ionicframework.com/docs/theming/themes Pour avoir toutes les variables*/
 :root {
     --ion-color-primary: #70DBD4;
     --ion-color-primary-rgb: 112, 219, 212;
@@ -62,6 +63,7 @@
     --ion-color-dark-shade: #292929;
     --ion-color-dark-tint: #444444;
 
+    --ion-border-color: #DDDDDD;
 
     --ion-background-color: #ffffff;
     --ion-background-color-rgb: 255, 255, 255;
