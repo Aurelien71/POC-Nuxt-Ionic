@@ -9,7 +9,7 @@ Setup :
 
 Chose à savoir sur Ionic :
 
-* Ionic apporte la notion de **Capacitor** qui permet de faire une application multi-Plateforme, et permet de récupérer les fonctionnalités natives de l'appareil (ex. position GPS, notification, camera)
+* Ionic fonctionne avec la librairie **Capacitor** qui permet de run/build l'appli Web sur IOS/Android et il permet de récupérer les fonctionnalités natives de l'appareil (ex. position GPS, notification, camera)
 
   Setup des capacitors (déjà fait) :
 
