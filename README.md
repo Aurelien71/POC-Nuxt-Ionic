@@ -26,9 +26,9 @@ Chose à savoir sur Ionic :
 
   * Installer Android Studio et installer la version Android API 34 (dernière version stable) (dans Tools -> SDK Manager)
   * **IMPORTANT** : Le SDK par défaut n'est pas localisé, vous pouvez définir le chemin dans les variables d'environnement ou aller dans *POC-NUXT-IONIC/android* et créer un fichier `local.properties` et ajouter cette ligne (remplacer *aure2* par le nom de votre session) *sdk.dir=C:*\\*Users*\\***aure2***\\*AppData*\\*Local*\\*Android*\\*Sdk*
-  * Pour lancer le projet j'ai ajouter des script d'automatisation pour tous faire d'un coup (installer un émulateur si vous en avez pas mais normalement avec android studio il y a déjà des émulateur installés). Commande : `npm run android`
+  * Pour lancer le projet j'ai créer des script Bash d'automatisation pour tous faire d'un coup (installer un émulateur si vous en avez pas, mais normalement avec android studio il y a déjà des émulateur installés). Commande : `npm run android`
 
-  Pour IOS (Renseigné vous sur la doc flemme je peux pas essayer, merci de compléter la doc quand ça fonctionnera) :
+  Pour IOS (Renseigné vous sur la doc flemme je peux pas essayer, merci de compléter la doc quand ça fonctionnera, également adapter le script ios.sh qui n'a pas été testé) :
 * Le SSR n'est pas compatible avec le déploiement Android/IOS, utilisé le CSR
 
   ```typescript
